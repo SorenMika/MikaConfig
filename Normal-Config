@@ -1,30 +1,40 @@
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@52.24.184.196:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP23
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@44.242.86.43:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP10
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@34.212.5.136:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP14
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@44.232.213.96:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP12
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@54.214.42.109:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP2
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@52.10.243.183:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP29
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@52.88.134.244:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP24
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@52.38.196.66:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP21
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@52.32.48.189:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP26
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@54.245.254.192:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP4
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@34.209.61.237:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP6
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@100.21.201.38:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP7
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@35.95.153.173:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP30
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@34.209.4.242:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP18
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@35.163.94.90:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP17
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@44.241.113.13:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP11
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@35.160.68.98:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP15
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@54.189.195.155:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP27
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@34.213.90.4:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP28
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@52.36.157.229:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP8
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@52.35.190.247:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP19
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@44.228.28.235:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP25
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@100.20.214.66:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP1
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@34.210.134.9:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP13
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@44.230.231.158:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP16
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@54.214.17.65:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP9
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@54.70.104.161:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP3
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@54.188.107.233:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP22
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@54.202.9.208:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP20
-vless://8ad9fe06-8104-4cb2-e436-3318dd6628ad@35.95.157.92:80?security=none&encryption=none&headerType=&type=tcp#AW-TCP5
+vless://c421373a-105a-42c1-9f1c-e86e0bc08842@zula.ir:443?encryption=none&security=tls&sni=638699885236997159.kimia-prmplb.info&type=ws&host=638699885236997159.kimia-prmplb.info&path=/pcxazows#us-Horse VPN 0
+vless://ec5061aa-5b2b-41b8-bcf1-045a27a4f7a5@zula.ir:443?encryption=none&security=tls&sni=638699885237001836.laleh-prmplb.info&type=ws&host=638699885237001836.laleh-prmplb.info&path=/oeexvcws#us-Horse VPN 1
+vless://7f48db7d-575b-4978-bd92-6607c81bb2c4@zula.ir:443?encryption=none&security=tls&sni=638699885237011650.laleh-prmplb.info&type=ws&host=638699885237011650.laleh-prmplb.info&path=/byyfbjws#us-Horse VPN 2
+vless://a74afefe-7039-4138-a5ef-1d020e0acb22@zula.ir:443?encryption=none&security=tls&sni=638699885237019136.anahita-prmplc.info&type=ws&host=638699885237019136.anahita-prmplc.info&path=/mxscnfws#us-Horse VPN 3
+vless://aebb918f-d9ee-4c6c-a540-13c3d22f53be@zula.ir:443?encryption=none&security=tls&sni=638699885237026293.anahita-prmplc.info&type=ws&host=638699885237026293.anahita-prmplc.info&path=/qaqaoews#us-Horse VPN 4
+vless://12438f99-7edb-4e89-aced-b825ba5da7e6@zula.ir:443?encryption=none&security=tls&sni=638699885237033814.baran-prmplc.info&type=ws&host=638699885237033814.baran-prmplc.info&path=/tkzoakws#us-Horse VPN 5
+vless://7dba1db7-dcfa-46f4-acf5-5452a60492db@zula.ir:443?encryption=none&security=tls&sni=638699885237041152.baran-prmplc.info&type=ws&host=638699885237041152.baran-prmplc.info&path=/dsffbaws#us-Horse VPN 6
+vless://f13282a5-8544-463a-b2b2-8bf1aba3416e@zula.ir:443?encryption=none&security=tls&sni=638699885237047594.darya-prmplc.info&type=ws&host=638699885237047594.darya-prmplc.info&path=/xxebsbws#us-Horse VPN 7
+vless://1b14fcc3-7d6e-4662-8e67-12344143143c@zula.ir:443?encryption=none&security=tls&sni=638699884959498371.anahita-prmpla.info&type=ws&host=638699884959498371.anahita-prmpla.info&path=/eskvjfws#us-Horse VPN 8
+vless://7129a2a9-80d4-4e66-8050-54903a535bbf@zula.ir:443?encryption=none&security=tls&sni=638699884959507981.anahita-prmpla.info&type=ws&host=638699884959507981.anahita-prmpla.info&path=/yjmvqlws#us-Horse VPN 9
+vless://93d02259-0198-4e3f-af59-5c58995cb9ed@zula.ir:443?encryption=none&security=tls&sni=638699884959516401.baran-prmpla.info&type=ws&host=638699884959516401.baran-prmpla.info&path=/wkiioaws#us-Horse VPN 10
+vless://3bce0ac0-c04f-4de5-85ec-6a2ffef493fd@zula.ir:443?encryption=none&security=tls&sni=638699885236738531.baran-prmpla.info&type=ws&host=638699885236738531.baran-prmpla.info&path=/tuunusws#us-Horse VPN 11
+vless://41697bb3-f2fc-45fa-a194-61df91c03de0@zula.ir:443?encryption=none&security=tls&sni=638699884959532755.darya-prmpla.info&type=ws&host=638699884959532755.darya-prmpla.info&path=/bavzzrws#us-Horse VPN 12
+vless://e6230666-12df-4cd0-bb26-08b06a60a951@zula.ir:443?encryption=none&security=tls&sni=638699885236745410.darya-prmpla.info&type=ws&host=638699885236745410.darya-prmpla.info&path=/zhyjmyws#us-Horse VPN 13
+vless://207a1774-1fba-495e-bc17-057c72a2367f@zula.ir:443?encryption=none&security=tls&sni=638699884959552047.elham-prmpla.info&type=ws&host=638699884959552047.elham-prmpla.info&path=/vksblaws#us-Horse VPN 14
+vless://fc2ce81b-4c1d-4134-b581-4dd7c03bd38c@zula.ir:443?encryption=none&security=tls&sni=638699885236757182.elham-prmpla.info&type=ws&host=638699885236757182.elham-prmpla.info&path=/dbtyrows#us-Horse VPN 15
+vless://5a14b132-d7f3-44a4-a565-5bef7efe9cfa@zula.ir:443?encryption=none&security=tls&sni=638699885236760259.farzaneh-prmpla.info&type=ws&host=638699885236760259.farzaneh-prmpla.info&path=/gcazoaws#us-Horse VPN 16
+vless://5c66018e-a816-47d3-a515-e75564adc712@zula.ir:443?encryption=none&security=tls&sni=638699885236769367.farzaneh-prmpla.info&type=ws&host=638699885236769367.farzaneh-prmpla.info&path=/eiqjasws#us-Horse VPN 17
+vless://d7a2ca3a-73eb-4e7c-9de1-223c43f4fb0c@zula.ir:443?encryption=none&security=tls&sni=638699885236774541.golnar-prmpla.info&type=ws&host=638699885236774541.golnar-prmpla.info&path=/rlkemdws#us-Horse VPN 18
+vless://e12ab39d-f280-4e4a-bc23-50c0e365023c@zula.ir:443?encryption=none&security=tls&sni=638699885236786985.golnar-prmpla.info&type=ws&host=638699885236786985.golnar-prmpla.info&path=/kexpnfws#us-Horse VPN 19
+vless://1444dd2b-9dcc-4f1f-be1c-ad50dc7c964f@zula.ir:443?encryption=none&security=tls&sni=638699885236791530.hasti-prmpla.info&type=ws&host=638699885236791530.hasti-prmpla.info&path=/qfjzxwws#us-Horse VPN 20
+vless://35aa6414-bcd2-4698-8430-e1bce5b602fb@zula.ir:443?encryption=none&security=tls&sni=638699885236800022.hasti-prmpla.info&type=ws&host=638699885236800022.hasti-prmpla.info&path=/borcudws#us-Horse VPN 21
+vless://eb24fd45-f089-4259-a48e-e414d3127208@zula.ir:443?encryption=none&security=tls&sni=638699885236807859.jaleh-prmpla.info&type=ws&host=638699885236807859.jaleh-prmpla.info&path=/feztjcws#us-Horse VPN 22
+vless://8a0fccaa-0db6-42ea-9820-34fbcc318e4b@zula.ir:443?encryption=none&security=tls&sni=638699885236813783.jaleh-prmpla.info&type=ws&host=638699885236813783.jaleh-prmpla.info&path=/gzgpoxws#us-Horse VPN 23
+vless://9c3007c9-a336-4bc7-a816-a82e867f58e5@zula.ir:443?encryption=none&security=tls&sni=638699885236820627.kimia-prmpla.info&type=ws&host=638699885236820627.kimia-prmpla.info&path=/wyqesjws#us-Horse VPN 24
+vless://0824ef22-dfab-4057-b714-b9a8194c4e2e@zula.ir:443?encryption=none&security=tls&sni=638699885236828942.kimia-prmpla.info&type=ws&host=638699885236828942.kimia-prmpla.info&path=/hrzcyjws#us-Horse VPN 25
+vless://ccdfea01-cfde-4d62-98b6-d391c8f3640f@zula.ir:443?encryption=none&security=tls&sni=638699885236834673.laleh-prmpla.info&type=ws&host=638699885236834673.laleh-prmpla.info&path=/gjohwwws#us-Horse VPN 26
+vless://90248d13-c958-45ac-a542-09c275278861@zula.ir:443?encryption=none&security=tls&sni=638699885236850455.anahita-prmplb.info&type=ws&host=638699885236850455.anahita-prmplb.info&path=/lstzefws#us-Horse VPN 27
+vless://9ed01446-c900-4989-bfb4-d59642c7da96@zula.ir:443?encryption=none&security=tls&sni=638699885236858696.anahita-prmplb.info&type=ws&host=638699885236858696.anahita-prmplb.info&path=/uxxerpws#us-Horse VPN 28
+vless://f156b0af-1fe5-4d33-87b5-6c9c5cc89390@zula.ir:443?encryption=none&security=tls&sni=638699885236869257.anahita-prmplb.info&type=ws&host=638699885236869257.anahita-prmplb.info&path=/sveikxws#us-Horse VPN 29
+vless://b05565b5-167e-494a-9341-9dd7b1bbcd86@zula.ir:443?encryption=none&security=tls&sni=638699885236874574.baran-prmplb.info&type=ws&host=638699885236874574.baran-prmplb.info&path=/tteofxws#us-Horse VPN 30
+vless://fa57384c-38cf-4c2e-9d6e-f672608da414@zula.ir:443?encryption=none&security=tls&sni=638699885236882267.baran-prmplb.info&type=ws&host=638699885236882267.baran-prmplb.info&path=/gmytpows#us-Horse VPN 31
+vless://ebfb6bde-f218-43eb-b881-099e3ae904f0@zula.ir:443?encryption=none&security=tls&sni=638699885236887213.darya-prmplb.info&type=ws&host=638699885236887213.darya-prmplb.info&path=/xnorjsws#us-Horse VPN 32
+vless://25070a60-93f9-4229-a33f-6f00278f1114@zula.ir:443?encryption=none&security=tls&sni=638699885236894534.darya-prmplb.info&type=ws&host=638699885236894534.darya-prmplb.info&path=/yfqulnws#us-Horse VPN 33
+vless://5de593b7-ed13-4113-baa1-8e2b130f4b6a@zula.ir:443?encryption=none&security=tls&sni=638699885236916975.farzaneh-prmplb.info&type=ws&host=638699885236916975.farzaneh-prmplb.info&path=/zmgujyws#us-Horse VPN 34
+vless://b45ee1f9-0a5e-447e-92de-30c3110c7015@zula.ir:443?encryption=none&security=tls&sni=638699885236927182.farzaneh-prmplb.info&type=ws&host=638699885236927182.farzaneh-prmplb.info&path=/pithrhws#us-Horse VPN 35
+vless://4e43cda1-82a1-4cc1-80e8-9fcc2f71b012@zula.ir:443?encryption=none&security=tls&sni=638699885236934237.golnar-prmplb.info&type=ws&host=638699885236934237.golnar-prmplb.info&path=/ztxxmews#us-Horse VPN 36
+vless://005c4884-0817-45b2-b136-22b4344d688f@zula.ir:443?encryption=none&security=tls&sni=638699885236940810.golnar-prmplb.info&type=ws&host=638699885236940810.golnar-prmplb.info&path=/vfpawmws#us-Horse VPN 37
+vless://d99cf56d-6b41-4a8d-a99a-feb637ede3a3@zula.ir:443?encryption=none&security=tls&sni=638699885236953086.hasti-prmplb.info&type=ws&host=638699885236953086.hasti-prmplb.info&path=/vcpvetws#us-Horse VPN 38
+vless://e66b96ff-ee34-44c3-b853-79362f5203f6@zula.ir:443?encryption=none&security=tls&sni=638699885236958251.hasti-prmplb.info&type=ws&host=638699885236958251.hasti-prmplb.info&path=/mtwanwws#us-Horse VPN 39
