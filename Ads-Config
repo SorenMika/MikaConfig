@@ -1,10 +1,98 @@
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@142.93.184.189:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@142.93.179.3:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@161.35.129.119:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@134.209.171.165:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@64.225.58.193:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@167.71.104.200:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@209.97.156.234:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@64.225.13.179:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@174.138.91.153:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
-vless://1f7032a8-832b-496c-93f4-44674a0ba108@45.55.245.131:8080?mode=gun&security=reality&encryption=none&pbk=FWzUHWJLwACAZVhrGKNZEdBRgeX5r1rBfS5QAJ48Sxo&fp=chrome&spx=%2F&type=grpc&sni=telewebion.com&sid=97f9c0e2539e#TB-Mika
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "8.8.8.8"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mik.soltonabad.shop",
+            "port": 8088,
+            "users": [
+              {
+                "encryption": "none",
+                "id": "1f23275f-fdbf-4077-8846-d26797c0ee3f",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "authority": "",
+          "health_check_timeout": 20,
+          "idle_timeout": 60,
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "network": "grpc"
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    }
+  ],
+  "remarks": "Vless-Grpc",
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "ip": [
+          "8.8.8.8"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      }
+    ]
+  }
+}
