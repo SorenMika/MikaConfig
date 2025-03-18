@@ -1,1 +1,90 @@
-ewogICJsb2ciOiB7CiAgICAibG9nbGV2ZWwiOiAid2FybmluZyIKICB9LAogICJkbnMiOiB7CiAgICAiaG9zdHMiOiB7CiAgICAgICJkb21haW46Z29vZ2xlYXBpcy5jbiI6ICJnb29nbGVhcGlzLmNvbSIKICAgIH0sCiAgICAic2VydmVycyI6IFsKICAgICAgewogICAgICAgICJhZGRyZXNzIjogImh0dHBzOi8vMS4xLjEuMS9kbnMtcXVlcnkiLAogICAgICAgICJkb21haW5zIjogWyJnZW9zaXRlOmdlb2xvY2F0aW9uLSFjbiJdCiAgICAgIH0sCiAgICAgICI4LjguOC44IiwKICAgICAgIjEuMS4xLjEiCiAgICBdCiAgfSwKICAiaW5ib3VuZHMiOiBbCiAgICB7CiAgICAgICJ0YWciOiAic29ja3MtaW4iLAogICAgICAicG9ydCI6IDEwODA4LAogICAgICAibGlzdGVuIjogIjEyNy4wLjAuMSIsCiAgICAgICJwcm90b2NvbCI6ICJzb2NrcyIsCiAgICAgICJzZXR0aW5ncyI6IHsKICAgICAgICAiYXV0aCI6ICJub2F1dGgiLAogICAgICAgICJ1ZHAiOiB0cnVlCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0YWciOiAiaHR0cC1pbiIsCiAgICAgICJwb3J0IjogMTA4MDksCiAgICAgICJsaXN0ZW4iOiAiMTI3LjAuMC4xIiwKICAgICAgInByb3RvY29sIjogImh0dHAiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgImF1dGgiOiAibm9hdXRoIgogICAgICB9CiAgICB9CiAgXSwKICAib3V0Ym91bmRzIjogWwogICAgewogICAgICAidGFnIjogInByb3h5IiwKICAgICAgInByb3RvY29sIjogInNvY2tzIiwKICAgICAgInNldHRpbmdzIjogewogICAgICAgICJzZXJ2ZXJzIjogWwogICAgICAgICAgewogICAgICAgICAgICAiYWRkcmVzcyI6ICJ1cy5zbmFwbGluay5jbGljayIsCiAgICAgICAgICAgICJwb3J0IjogMTIzMjQsCiAgICAgICAgICAgICJ1c2VycyI6IFsKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAidXNlciI6ICJtaWthZWwiLAogICAgICAgICAgICAgICAgInBhc3MiOiAiTWlrYWVsMjEzOSIKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIF0KICAgICAgICAgIH0KICAgICAgICBdLAogICAgICAgICJkb21haW5TdHJhdGVneSI6ICJVc2VJUCIKICAgICAgfSwKICAgICAgInN0cmVhbVNldHRpbmdzIjogewogICAgICAgICJzb2Nrb3B0IjogewogICAgICAgICAgInRjcE5vRGVsYXkiOiB0cnVlLAogICAgICAgICAgInRjcEtlZXBBbGl2ZUlkbGUiOiAxMDAKICAgICAgICB9CiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0YWciOiAiZGlyZWN0IiwKICAgICAgInByb3RvY29sIjogImZyZWVkb20iLAogICAgICAic2V0dGluZ3MiOiB7fQogICAgfSwKICAgIHsKICAgICAgInRhZyI6ICJibG9jayIsCiAgICAgICJwcm90b2NvbCI6ICJibGFja2hvbGUiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgInJlc3BvbnNlIjogewogICAgICAgICAgInR5cGUiOiAiaHR0cCIKICAgICAgICB9CiAgICAgIH0KICAgIH0KICBdLAogICJyb3V0aW5nIjogewogICAgImRvbWFpblN0cmF0ZWd5IjogIklQSWZOb25NYXRjaCIsCiAgICAicnVsZXMiOiBbCiAgICAgIHsKICAgICAgICAidHlwZSI6ICJmaWVsZCIsCiAgICAgICAgIm91dGJvdW5kVGFnIjogInByb3h5IiwKICAgICAgICAicG9ydCI6ICIwLTY1NTM1IgogICAgICB9CiAgICBdCiAgfQp9
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query",
+        "domains": ["geosite:geolocation-!cn"]
+      },
+      "8.8.8.8",
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks-in",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      }
+    },
+    {
+      "tag": "http-in",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "auth": "noauth"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "us.snaplink.click",
+            "port": 12324,
+            "users": [
+              {
+                "user": "mikael",
+                "pass": "Mikael2139"
+              }
+            ]
+          }
+        ],
+        "domainStrategy": "UseIP"
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "type": "field",
+        "outboundTag": "proxy",
+        "port": "0-65535"
+      }
+    ]
+  }
+}
