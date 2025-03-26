@@ -6,8 +6,8 @@ vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 4
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 5
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 6
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 7
-vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 8
-vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 9
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638786263313381250.hamedan-mplify-aab.org:8880?encryption=none&security=&sni=&type=grpc&host=&path=#us-Horse VPN 8
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638786263313473703.hamedan-mplify-aab.org:8880?encryption=none&security=&sni=&type=grpc&host=&path=#us-Horse VPN 9
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 10
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 11
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 12
@@ -21,7 +21,7 @@ vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 19
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 20
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 21
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 22
-vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 23
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638786263313503124.hamedan-mplify-aab.org:8880?encryption=none&security=&sni=&type=grpc&host=&path=#us-Horse VPN 23
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 24
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 25
 vless://@:?encryption=none&security=&sni=&type=&host=&path=#us-Horse VPN 26
