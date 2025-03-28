@@ -1,4 +1,3 @@
-vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@3.130.7.116:80?type=tcp&security=none#Tcp-aw7
 vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@3.143.204.46:80?type=tcp&security=none#Tcp-aw4
 vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@13.58.72.1:80?type=tcp&security=none#Tcp-aw6
 vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@18.224.63.128:80?type=tcp&security=none#Tcp-aw8
@@ -8,3 +7,4 @@ vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@3.147.53.178:80?type=tcp&security=n
 vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@13.59.69.16:80?type=tcp&security=none#Tcp-aw9
 vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@3.137.176.215:80?type=tcp&security=none#Tcp-aw2
 vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@3.148.117.214:80?type=tcp&security=none#Tcp-aw1
+vless://4d5848af-3baf-4225-8f2b-fc25fc3370bb@3.130.7.116:80?type=tcp&security=none#Tcp-aw7
